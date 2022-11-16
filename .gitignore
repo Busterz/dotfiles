@@ -1,3 +1,11 @@
+# Compiled Python files
+*.pyc
+
 # Folder view configuration files
 .DS_Store
 .netrwhist
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db

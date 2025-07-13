@@ -1,0 +1,9 @@
+# Aliases
+alias gaa='git add .'
+alias gb='git branch'
+alias gc='git commit'
+alias gpl='git pull'
+alias gps='git push'
+alias gsh='git stash'
+alias gshp='git stash pop'
+alias gst='git status'

@@ -14,30 +14,24 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     sudo pacman -Syu --noconfirm
 
     echo "Installing essential tools..."
-    sudo pacman -S --needed --noconfirm wget curl git vim tmux p7zip unzip
+    sudo pacman -S --needed --noconfirm wget curl vim tmux p7zip unzip
 
     echo "Installing desktop applications..."
-    sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso
+    sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso brave-browser filezilla
 
     echo "Installing development tools..."
-    sudo pacman -S --needed --noconfirm python python-pip
+    sudo pacman -S --needed --noconfirm git python python-pip nodejs npm code
 
     echo "Start installing others..."
-    echo "1. Brave browser"
-    sudo pacman -S --needed --noconfirm brave-browser
-
-    echo "2. Steam"
+    echo "1. Steam"
     sudo pacman -S --needed --noconfirm steam
 
-    echo "3. Visual Studio Code"
-    sudo pacman -S --needed --noconfirm code
-
-    echo "4. OBS Studio (from yay)"
+    echo "2. OBS Studio (from yay)"
     sudo pacman -S --needed --noconfirm base-devel
     sudo pacman -S yay
     yay -S obs-studio-browser
 
-    echo "5. Discord (From AUR which is stabler than Pacman)"
+    echo "3. Discord (From AUR which is stabler than Pacman)"
     yay -S discord
 else
     echo "This script is specifically designed for Manjaro Linux."

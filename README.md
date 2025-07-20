@@ -68,6 +68,10 @@ The extensions are currently curated for:
 |  | `ms-vscode.vscode-typescript-next` | Latest TypeScript engine |
 |  | `msjsdiag.debugger-for-chrome` | JS/TS debugging in Chrome |
 |  | `rvest.vs-code-prettier-eslint` | Combines Prettier + ESLint formatting |
+| **Language Support** | `ms-python.python` | Python language support & Jupyter |
+|  | `golang.go` | Go language server, debugger & tools |
+|  | `mathiasfrohlich.Kotlin` | Kotlin language support |
+|  | `yzhang.markdown-all-in-one` | Markdown enhancements, TOC, shortcuts |
 | **Utilities / Misc** | `shardulm94.trailing-spaces` | Highlights trailing whitespace |
 |  | `vscodevim.vim` | Vim keybindings (optional) |
 |  | `redhat.vscode-yaml` | YAML schema support |

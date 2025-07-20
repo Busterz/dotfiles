@@ -65,7 +65,7 @@ code --install-extension rvest.vs-code-prettier-eslint
 # 🧰 Optional Tools & Extras
 # -------------------------------
 code --install-extension shardulm94.trailing-spaces
-code --install-extension vscodevim.vim
+#code --install-extension vscodevim.vim
 code --install-extension redhat.vscode-yaml
 code --install-extension ms-azuretools.vscode-docker
 

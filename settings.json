@@ -1,0 +1,94 @@
+// For VSCode global settings
+/* Locations:
+- Linux: ~/.config/Code/User/settings.json
+- macOS: ~/Library/Application Support/Code/User/settings.json
+- Windows: %APPDATA%\Code\User\settings.json
+*/
+
+{
+  // 🧼 Formatting and indentation
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+
+  // 🧾 Language-specific indentation
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[java]": {
+    "editor.tabSize": 4
+  },
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "[razor]": {
+    "editor.tabSize": 4
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "[kotlin]": {
+    "editor.tabSize": 4
+  },
+  "[shellscript]": {
+    "editor.tabSize": 4
+  },
+
+  // ✍️ Default formatters
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[kotlin]": {
+    "editor.defaultFormatter": "mathiasfrohlich.Kotlin"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+
+  // 🛠 Prettier rules (for JS, React, HTML)
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+
+  // 💾 File save behavior
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+
+  // 🎨 Theme and icons
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark High Contrast",
+
+  // 🐘 SQLTools configs can go here if needed later
+  // 🧪 Enable code actions on save (e.g., lint fixes)
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}

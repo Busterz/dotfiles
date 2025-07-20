@@ -80,3 +80,20 @@ The extensions are currently curated for:
 `.sh` files — installers.
 
 The rest are general configs for your system.
+
+## 🛠 Troubleshooting
+If you encounter this error when trying to run the installer script:
+
+```bash
+zsh: ./vscode-extensions-install.sh: bad interpreter: /bin/bash^M: no such file or directory
+```
+
+It means the file has Windows-style line endings (CRLF). You can fix it by running this in your terminal:
+
+```bash
+sed -i 's/\r$//' vscode-extensions-install.sh
+```
+
+Then make it executable and try again. This should work on all `.sh` files. This also should work on any Linux distros and MacOS.
+
+As long as `sed` is available (and it is on virtually every Unix-like system), this command should work.

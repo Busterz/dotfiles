@@ -43,20 +43,15 @@ The extensions are currently curated for:
 |  | `formulahendry.auto-rename-tag` | Auto-renames paired HTML/XML tags |
 |  | `formulahendry.auto-close-tag` | Auto-closes HTML/XML tags as you type |
 |  | `oderwat.indent-rainbow` | Adds colors to indentation levels |
-|  | `visualstudioexptteam.vscodeintellicode` | AI-assisted IntelliSense suggestions |
 | **AI Assistants** | `GitHub.copilot` | AI coding assistant |
 |  | `GitHub.copilot-chat` | Chat-based Copilot interface |
 |  | `anthropic.claude-code` | Claude AI integration (needs API key) |
-| **C# / ASP.NET** | `ms-dotnettools.csharp` | C# language support |
-|  | `ms-dotnettools.vscode-dotnet-runtime` | .NET runtime management |
-|  | `ms-vscode.csharp-formatting` | Formatting tools for C# |
+| **C# / ASP.NET** | `ms-dotnettools.vscode-dotnet-runtime` | .NET runtime manager (includes Razor support) |
 |  | `k--kato.docomment` | Auto-generates XML doc comments |
 | **Frontend: HTML/CSS/JS/jQuery** | `zignd.html-css-class-completion` | CSS class autocompletion in HTML |
 |  | `ecmel.vscode-html-css` | CSS hints and links for HTML tags |
-|  | `mrmlnc.vscode-autoprefixer` | Adds vendor prefixes in CSS |
 |  | `ritwickdey.liveserver` | Local dev server with live reload |
-|  | `robinbentley.sass-indented` | Sass syntax highlighting |
-|  | `syler.sass-indented` | Alternative Sass support |
+|  | `syler.sass-indented` | Sass syntax highlighting and indentation |
 |  | `bradlc.vscode-tailwindcss` | Tailwind CSS IntelliSense |
 |  | `xabikos.JavaScriptSnippets` | jQuery/JS snippets like `$.ajax()` |
 | **SQL / Databases** | `mtxr.sqltools` | SQL GUI for PostgreSQL, MySQL |
@@ -64,7 +59,6 @@ The extensions are currently curated for:
 |  | `mtxr.sqltools-driver-mysql` | MySQL driver for SQLTools |
 |  | `humao.rest-client` | Send/test REST APIs in `.http` files |
 | **React / npm / JavaScript** | `dsznajder.es7-react-js-snippets` | Snippets for React/Redux/hooks |
-|  | `xabikos.reactSnippets` | Additional React snippets |
 |  | `ms-vscode.vscode-typescript-next` | Latest TypeScript engine |
 |  | `msjsdiag.debugger-for-chrome` | JS/TS debugging in Chrome |
 |  | `rvest.vs-code-prettier-eslint` | Combines Prettier + ESLint formatting |

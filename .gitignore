@@ -9,3 +9,6 @@ Desktop.ini
 # Thumbnail cache files
 ._*
 Thumbs.db
+
+# Self-defined
+.env.local

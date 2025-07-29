@@ -17,7 +17,8 @@ code --install-extension oderwat.indent-rainbow
 # AI Code Assistants
 # code --install-extension GitHub.copilot
 # code --install-extension GitHub.copilot-chat
-# code --install-extension anthropic.claude-code
+code --install-extension anthropic.claude-code
+npm install -g @anthropic-ai/claude-code
 
 # ASP.NET Core / C# / Razor
 code --install-extension ms-dotnettools.vscode-dotnet-runtime

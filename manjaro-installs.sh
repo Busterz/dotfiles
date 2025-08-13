@@ -37,6 +37,11 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     echo "4. For ASP.NET work projects"
     sudo pacman -S --noconfirm dotnet-sdk
     sudo pacman -S --noconfirm postgresql
+
+    # For manipulating PDFs
+    echo "5. Ghostscript"
+    sudo pacman -S --noconfirm dotnet-sdk
+    sudo pacman -S --noconfirm postgresql
 else
     echo "This script is specifically designed for Manjaro Linux."
 fi

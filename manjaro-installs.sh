@@ -46,6 +46,10 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     # Universal document converter, mainly used for md to pdf
     echo "6. Pandoc"
     sudo pacman -S --noconfirm pandoc
+
+    # For creating md files specifically with live preview
+    echo "7. Ghostwriter"
+    sudo pacman -S --noconfirm ghostwriter
 else
     echo "This script is specifically designed for Manjaro Linux."
 fi

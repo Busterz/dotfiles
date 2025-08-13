@@ -42,6 +42,10 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     echo "5. Ghostscript"
     sudo pacman -S --noconfirm dotnet-sdk
     sudo pacman -S --noconfirm postgresql
+
+    # Universal document converter, mainly used for md to pdf
+    echo "6. Pandoc"
+    sudo pacman -S --noconfirm pandoc
 else
     echo "This script is specifically designed for Manjaro Linux."
 fi

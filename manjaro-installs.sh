@@ -3,8 +3,10 @@
 
 distro=$(cat /etc/os-release | grep '^ID=' | cut -d'=' -f2 | tr -d '"')
 distro_lower=$(echo "$distro" | tr '[:upper:]' '[:lower:]')
+base_distro=$(cat /etc/os-release | grep '^ID_LIKE=' | cut -d'=' -f2 | tr -d '"')
+base_distro_lower=$(echo "$base_distro" | tr '[:upper:]' '[:lower:]')
 
-echo "Detected distribution: $distro"
+echo "Detected distribution: $distro with base distro $base_distro_lower"
 
 if [[ "$distro_lower" == "manjaro" ]]; then
     echo "Updating package lists..."

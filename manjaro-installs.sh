@@ -20,7 +20,7 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso brave-browser filezilla
 
     echo "Installing development tools..."
-    sudo pacman -S --needed --noconfirm git python python-pip nodejs npm code
+    sudo pacman -S --needed --noconfirm git jdk21-openjdk python python-pip nodejs npm code dbeaver
 
     echo "Start installing others..."
     echo "1. Steam"
@@ -46,6 +46,9 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     # Universal document converter, mainly used for md to pdf
     echo "6. Pandoc"
     sudo pacman -S --noconfirm pandoc
+    sudo pacman -S texlive-core texlive-latexextra texlive-fontsextra texlive-lm
+    sudo mktexlsr    # refresh TeX filename database (aka texhash)
+    sudo pacman -S texlive-luatex noto-fonts-emoji
 
     # For creating md files specifically with live preview
     echo "7. Ghostwriter"

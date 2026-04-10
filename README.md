@@ -33,19 +33,18 @@ The extensions are currently curated for:
 
 | Category | Extension | Description |
 |----------|-----------|-------------|
-| **Productivity** | `eamodio.gitlens` | Git blame, history, repo insights |
+| **Productivity** | `formulahendry.auto-rename-tag` | Auto-renames paired HTML/XML tags |
+|  | `formulahendry.auto-close-tag` | Auto-closes HTML/XML tags as you type |
 |  | `usernamehw.errorlens` | Inline error/warning highlighting |
-|  | `esbenp.prettier-vscode` | Code formatter for JS/HTML/CSS/TS |
+|  | `eamodio.gitlens` | Git blame, history, repo insights |
 |  | `gruntfuggly.todo-tree` | Highlights TODO/FIXME in project tree |
 |  | `wayou.vscode-todo-highlight` | Highlights TODO in the editor |
-|  | `pkief.material-icon-theme` | Material Design file icons |
+|  | `hediet.vscode-drawio` | Offline Draw.io (diagrams.net) |
+|  | `esbenp.prettier-vscode` | Code formatter for JS/HTML/CSS/TS |
 |  | `vscode-icons-team.vscode-icons` | Alternative, bold icon set |
-|  | `formulahendry.auto-rename-tag` | Auto-renames paired HTML/XML tags |
-|  | `formulahendry.auto-close-tag` | Auto-closes HTML/XML tags as you type |
+|  | `pkief.material-icon-theme` | Material Design file icons |
 |  | `oderwat.indent-rainbow` | Adds colors to indentation levels |
-| **AI Assistants** | `GitHub.copilot` | AI coding assistant |
-|  | `GitHub.copilot-chat` | Chat-based Copilot interface |
-|  | `anthropic.claude-code` | Claude AI integration (needs API key) |
+| **AI Assistants** | `anthropic.claude-code` | Claude AI integration (needs API key) |
 | **C# / ASP.NET** | `ms-dotnettools.vscode-dotnet-runtime` | .NET runtime manager (includes Razor support) |
 |  | `k--kato.docomment` | Auto-generates XML doc comments |
 | **Frontend: HTML/CSS/JS/jQuery** | `zignd.html-css-class-completion` | CSS class autocompletion in HTML |

@@ -3,20 +3,23 @@
 echo "Installing VS Code extensions..."
 
 # Productivity Essentials
-code --install-extension vscode-icons-team.vscode-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.auto-close-tag
+
 code --install-extension usernamehw.errorlens
 code --install-extension eamodio.gitlens
+
 code --install-extension gruntfuggly.todo-tree
 code --install-extension wayou.vscode-todo-highlight
+
+code --isntall-extension hediet.vscode-drawio
+
 code --install-extension esbenp.prettier-vscode
+code --install-extension vscode-icons-team.vscode-icons
 code --install-extension pkief.material-icon-theme
 code --install-extension oderwat.indent-rainbow
 
 # AI Code Assistants
-# code --install-extension GitHub.copilot
-# code --install-extension GitHub.copilot-chat
 code --install-extension anthropic.claude-code
 npm install -g @anthropic-ai/claude-code
 

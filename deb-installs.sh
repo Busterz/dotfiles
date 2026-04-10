@@ -111,8 +111,4 @@ elif command -v texhash >/dev/null 2>&1; then
   sudo texhash
 fi
 
-# Ghostwriter
-echo "Installing Ghostwriter..."
-sudo apt-get install -y ghostwriter || true
-
 echo "All done!"

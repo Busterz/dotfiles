@@ -16,7 +16,8 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     sudo pacman -Syu --noconfirm
 
     echo "Installing essential tools..."
-    sudo pacman -S --needed --noconfirm wget curl vim tmux p7zip unzip
+    # gvim instead of vim to get full features including clipboard support for copy-pasting
+    sudo pacman -S --needed --noconfirm wget curl gvim tmux p7zip unzip
 
     echo "Installing desktop applications..."
     sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso brave-browser filezilla
@@ -55,6 +56,9 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     # Misc
     echo "7. Ventoy"
     sudo pacman -S --noconfirm ventoy
+    # For Vim to talk to system clipboard smoothly
+    echo "8. xclip"
+    sudo pacman -S xclip
 
 else
     echo "This script is specifically designed for Manjaro Linux."

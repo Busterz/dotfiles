@@ -52,6 +52,10 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     sudo mktexlsr    # refresh TeX filename database (aka texhash)
     sudo pacman -S texlive-luatex noto-fonts-emoji
 
+    # Misc
+    echo "7. Ventoy"
+    sudo pacman -S --noconfirm ventoy
+
 else
     echo "This script is specifically designed for Manjaro Linux."
 fi

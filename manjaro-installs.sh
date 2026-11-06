@@ -49,16 +49,20 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     # Universal document converter, mainly used for md to pdf
     echo "6. Pandoc"
     sudo pacman -S --noconfirm pandoc
-    sudo pacman -S texlive-core texlive-latexextra texlive-fontsextra texlive-lm
+    sudo pacman -S --noconfirm texlive-core texlive-latexextra texlive-fontsextra texlive-lm
     sudo mktexlsr    # refresh TeX filename database (aka texhash)
-    sudo pacman -S texlive-luatex noto-fonts-emoji
+    sudo pacman -S --noconfirm texlive-luatex noto-fonts-emoji
+
+    # For storage (HDD/SSD) health check
+    echo "7. Smartmontools"
+    sudo pacman -S --noconfirm smartmontools
 
     # Misc
-    echo "7. Ventoy"
+    echo "8. Ventoy"
     sudo pacman -S --noconfirm ventoy
     # For Vim to talk to system clipboard smoothly
-    echo "8. xclip"
-    sudo pacman -S xclip
+    echo "9. xclip"
+    sudo pacman -S --noconfirm xclip
 
 else
     echo "This script is specifically designed for Manjaro Linux."

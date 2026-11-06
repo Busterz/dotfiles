@@ -20,7 +20,7 @@ if [[ "$distro_lower" == "manjaro" ]]; then
     sudo pacman -S --needed --noconfirm wget curl gvim tmux p7zip unzip
 
     echo "Installing desktop applications..."
-    sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso brave-browser filezilla
+    sudo pacman -S --needed --noconfirm gimp libreoffice vlc kamoso brave-browser filezilla thunderbird
 
     echo "Installing development tools..."
     sudo pacman -S --needed --noconfirm git jdk21-openjdk python python-pip nodejs npm code dbeaver
